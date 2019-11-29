@@ -1,0 +1,26 @@
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row, .row div {
+  margin: 0;
+  padding: 0;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.label {
+  word-wrap: break-word;
+}
+
+.is-error {
+  color: red;
+  cursor: pointer;
+}
+
+.error-message {
+  color: hotpink;
+}
